@@ -1,5 +1,5 @@
 import Header from "../Header/Header";
-import style from './Main.module.css'
+import style from "./Main.module.css";
 
 const Main = () => {
   return (
