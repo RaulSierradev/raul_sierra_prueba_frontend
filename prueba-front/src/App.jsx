@@ -1,12 +1,12 @@
 import "./App.css";
 import Home from "./components/Home/Home";
-import Footer from "./components/Footer/Footer";
+import data from './data.js'
 
 function App() {
   return (
     <div>
-      <Home />
-      <Footer />
+      <Home data={data}/>
+      
     </div>
   );
 }

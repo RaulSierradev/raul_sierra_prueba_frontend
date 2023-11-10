@@ -1,12 +1,22 @@
 import Banner from "../Banner/Banner";
 import Main from "../Main/Main";
-import style from './Home.module.css'
+import style from "./Home.module.css";
+import Footer from "./../Footer/Footer";
+import Cards from "../Cards/Cards";
 
-const Home = () => {
+const Home = ({ data }) => {
   return (
-    <div className={style.home}>
-      <Main/>
-      <Banner/>
+    <div>
+      <div className={style.home}>
+        <Main />
+        <Banner />
+      </div>
+      <div>
+        <Cards data={data} />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };
