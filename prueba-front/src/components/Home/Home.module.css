@@ -1,0 +1,9 @@
+.home {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .home {
+    display: flex;
+  }
+}

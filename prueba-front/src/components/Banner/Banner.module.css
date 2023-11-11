@@ -1,0 +1,83 @@
+.banner {
+  height: auto;
+  background-color: #d9d9d9;
+  color: #0c1726;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    width: 30%;
+  }
+}
+
+.cardsBanner {
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.cardBanner h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.cardBanner h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cardBanner p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cardBanner {
+  min-width: 100%;
+  transition: 0.3s ease all;
+  z-index: 10;
+  position: relative;
+}
+
+.controllers {
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.arrows {
+  width: 50px;
+  height: 50px;
+}
+
+.right {
+  right: 0;
+}
+.left {
+  left: 0;
+}
+
+.button {
+  pointer-events: all;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  text-align: center;
+  position: absolute;
+  transition: 0.3s ease all;
+  color: #0c1726;
+}
+
+.button:hover {
+  background: rgba(60, 89, 115, 0.2);
+}
