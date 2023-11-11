@@ -1,6 +1,7 @@
 .inputs {
   background-color: #d9d9d9;
   display: flex;
+  margin: 0;
 }
 
 .space {

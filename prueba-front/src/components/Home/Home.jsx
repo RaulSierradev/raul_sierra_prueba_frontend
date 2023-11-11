@@ -12,15 +12,12 @@ const Home = ({ data }) => {
         <Main />
         <Banner />
       </div>
-      <div>
-        <Cards data={data} />
-      </div>
-      <div>
-        <Inputs/>
-      </div>
-      <div>
-        <Footer />
-      </div>
+
+      <Cards data={data} />
+
+      <Inputs />
+
+      <Footer />
     </div>
   );
 };
