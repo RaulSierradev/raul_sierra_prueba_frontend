@@ -7,7 +7,6 @@ import { FreeMode, Pagination } from "swiper/modules";
 import style from "./Cards.module.css";
 
 const Cards = ({ data }) => {
-  console.log(data);
   return (
     <div className={style.cards}>
       <Swiper
