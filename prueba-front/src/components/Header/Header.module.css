@@ -13,12 +13,14 @@
   font-size: 20px;
   text-align: center;
 }
-@media (min-width: 768px ) {
-  .nav{
+
+@media (min-width: 768px) {
+  .nav {
     display: flex;
     justify-content: space-around;
   }
 }
+
 .item {
   font-weight: bold;
   color: #8c8377;
@@ -81,7 +83,7 @@
   background-color: #2b4157;
 }
 
-.subItem2{
+.subItem2 {
   padding: 10px 0;
   border: 1px solid white;
   border-top: none;
@@ -95,7 +97,7 @@
   font-weight: 400;
 }
 
-.subItem:hover .dropdownTwo{
+.subItem:hover .dropdownTwo {
   display: block;
 }
 

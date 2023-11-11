@@ -1,0 +1,82 @@
+.headerMobile {
+  display: block;
+  transition: 0.3s ease all;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.openMenu {
+  text-align: right;
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .headerMobile {
+    display: none;
+  }
+}
+
+.contentMobile {
+  list-style-type: none;
+  padding-left: 0px;
+  background-color: #3c5973;
+}
+
+.subContentMobile {
+  font-size: 16px;
+  width: 100%;
+  padding: 0;
+  display: none;
+  list-style: none;
+  background-color: #2b4157;
+  transform: translateY(1px);
+}
+
+.section:hover .subContentMobile {
+  display: block;
+}
+.subContentMobile2 {
+  font-size: 16px;
+  width: 100%;
+  padding: 0;
+  display: none;
+  list-style: none;
+  background-color: #2b4157;
+  transform: translateY(1px);
+}
+
+.section2:hover .subContentMobile2 {
+  display: block;
+}
+
+.section {
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+.section2 {
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section:hover {
+  background-color: #d9d9d9;
+  color: #0c1726;
+}
+.section2:hover {
+  background-color: #d9d9d9;
+  color: #0c1726;
+}
+
+.none {
+  display: none;
+}
