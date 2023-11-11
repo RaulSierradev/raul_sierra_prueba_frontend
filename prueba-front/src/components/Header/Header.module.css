@@ -9,10 +9,15 @@
   list-style-type: none;
   margin: 0;
   padding: 30px;
-  display: flex;
-  justify-content: space-around;
+  display: none;
   font-size: 20px;
   text-align: center;
+}
+@media (min-width: 768px ) {
+  .nav{
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .item {
   font-weight: bold;

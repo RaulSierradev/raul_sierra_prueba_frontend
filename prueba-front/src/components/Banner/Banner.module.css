@@ -1,11 +1,16 @@
 .banner {
-  width: 30%;
   height: auto;
   background-color: #d9d9d9;
   color: #0c1726;
   overflow: hidden;
   position: relative;
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    width: 30%;
+  }
 }
 
 .cardsBanner {
@@ -20,15 +25,15 @@
   margin-right: 3%;
 }
 
-.cardBanner h2{
+.cardBanner h2 {
   font-size: 30px;
   font-weight: bold;
 }
-.cardBanner h3{
+.cardBanner h3 {
   font-size: 20px;
   font-weight: 700;
 }
-.cardBanner p{
+.cardBanner p {
   font-size: 14px;
   font-weight: 400;
 }
